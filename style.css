@@ -1,0 +1,88 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  animation: fallFromTop 1.5s ease-in-out; /* Menambahkan animasi pada elemen h1 */
+  transform-origin: top;
+  
+}
+
+@keyframes fallFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.dec{
+  background-color: black;
+  color: white;
+  font-family: serif;
+  text-align: left;
+  font-size: 15px;
+  padding: 4px 2px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
